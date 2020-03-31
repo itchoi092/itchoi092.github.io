@@ -1,0 +1,99 @@
+body
+{
+	font-family: sans-serif; 
+}
+h1
+{
+	text-align : center ; 
+	color : forestgreen;
+	margin: 30 px 0 50 px ; 
+	text-transform: uppercase;
+}
+h1 .border 
+{
+	width: 600px;
+	height: 1px ;
+	background: #333;
+	margin: 5px auto ;
+}
+.galleryview{
+	
+	width: 100% ; 
+	padding: 10px auto;
+
+}
+.contents-width
+{
+	width: 100%
+	max-width: 1920px;
+	margin: auto; 
+	display:  flex;
+	flex-wrap:  wrap;
+	justify-content: center;	
+}
+.galleryview .gallery 
+{
+	display:  flex;
+	flex-wrap:  wrap;
+	justify-content: center;
+}
+.galleryview .image
+{
+	position: relative;
+	flex: 30% ;
+	overflow: hidden;
+	cursor: pointer;
+	max-height:  500px;
+	margin:  5px 5px 5px 5px;
+
+}
+.galleryview .image:hover img
+{
+
+	transform: scale(1.1) rotate(1deg);
+	filter: grayscale(0);
+
+}
+
+.galleryview .image img {
+
+	position: relative;
+	z-index: 0;
+	transition: 0.3s;
+ 	width:  100%; 
+ 	height:  auto;
+ 	image-orientation: from-image;
+	filter: grayscale(50);
+
+	
+}
+.galleryview .image:hover .buynow
+{
+	display: block;
+	transform: rotate(-1deg);
+}
+.buynow
+{
+
+ 	opacity: 0.7;
+	width: 30%;
+	position: absolute;
+	z-index: 10;
+	display:none;
+
+}
+
+@media screen and (max-width: 1440px)
+{
+	.galleryview .image
+	{
+		flex: 40% ;
+	}
+}
+@media screen and (max-width: 800px)
+{
+	.galleryview .image
+	{
+		flex: 50% ;
+	}
+}

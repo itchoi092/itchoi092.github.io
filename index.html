@@ -1,0 +1,115 @@
+<html>
+<head>
+<title> Artrica: 아트리카 </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+	<script type="text/javascript" src="js/test.js"></script>
+</head>
+
+<body>
+<h1> Artrica : African Art Gallery 
+<div class ="border"></div>
+
+
+</h1>
+
+	<div class ="galleryview">
+
+		<div class ="contents-width"> 
+			<div class = "gallery">
+				
+				<ul> 
+				<?php for($i=1;$i<=5;$i++){ ?>
+				<li>Menu Item <?php echo $i; ?></li> 
+				<?php } ?>
+				</ul> 
+				<?php
+				$dirname = "../images/";
+				$images = glob("$dirname/*.{jpg,png,bmp}", GLOB_BRACE);
+
+				foreach($images as $image) {
+	    			echo '<img src="'.$image.'" /><br />';
+				}
+				?>
+				
+<!-- 
+
+	$dirname = "media/images/iconized/";
+	$images = glob($dirname."*.png");   $images = glob("$dir/*.{jpg,png,bmp}", GLOB_BRACE);
+
+	foreach($images as $image) {
+	    echo '<img src="'.$image.'" /><br />';
+	}
+					using php to add all images in folder 
+
+
+				  <?php
+			     $files = glob("images/*.*");
+			     for ($i=0; $i<count($files); $i++)
+			      {
+			        $image = $files[$i];
+			        $supported_file = array(
+			                'gif',
+			                'jpg',
+			                'jpeg',
+			                'png'
+			         );
+
+			         $ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
+			         if (in_array($ext, $supported_file)) {
+			            echo basename($image)."<br />"; // show only image name if you want to show full path then use this code // echo $image."<br />";
+			             echo '<img src="'.$image .'" alt="Random image" />'."<br /><br />";
+			            } else {
+			                continue;
+			            }
+			          }
+			       ?>
+
+
+
+
+
+			       <a href="images/1.jpg" class ="image" data-lightbox = "mygallery" data-title = "African Image 1">
+					<div class="buynow" onclick="redirect('https://www.w3schools.com')" >
+					<object><a href="https://www.google.com" target="_blank"> <img src="images/buynow.png">
+					</a></object>
+					</div>
+					<img src="images/1.jpg">
+				</a>
+				 
+				<a href="images/7.png" class ="image" data-lightbox = "mygallery">
+					<div class="buynow" >
+					<object><a href="https://www.google.com" target="_blank"> <img src="images/buynow.png">
+					</a></object>
+					</div>
+					<img src="images/7.png">
+				</a>
+				<a href="images/2test.png" class ="image" data-lightbox = "mygallery">
+				<img src="images/2test.png">
+				</a>
+				<a href="images/2.jpg" class ="image" data-lightbox = "mygallery" data-title = "African Image 2">
+				<img src="images/2.jpg">
+				</a>
+				<a href="images/3.jpg" class ="image" data-lightbox = "mygallery" data-title = "African Image 3">
+				<img src="images/3.jpg">
+				</a>
+				
+				<a href="images/3test.png" class ="image" data-lightbox = "mygallery">
+				<img src="images/3test.png">
+				</a>				
+
+
+
+				 -->
+				
+
+				
+			</div>
+		</div>
+		
+
+	</div>
+
+</body>
+</html>
