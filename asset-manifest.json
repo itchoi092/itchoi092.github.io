@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e90f4cd9.css",
-    "main.js": "/static/js/main.7974221d.js",
-    "static/js/787.31dd6250.chunk.js": "/static/js/787.31dd6250.chunk.js",
-    "static/media/coverpng.png": "/static/media/coverpng.6b62d6d5ced848fd9665.png",
-    "static/media/poster1.png": "/static/media/poster1.b2f950f653163de2eebd.png",
-    "static/media/book.jpg": "/static/media/book.f3e8c5dd0399c0f2a6dc.jpg",
-    "static/media/profile.jpg": "/static/media/profile.46792557de6add4a1446.jpg",
-    "static/media/book4.jpg": "/static/media/book4.a079c519e6e97202d5f7.jpg",
-    "static/media/book3.jpg": "/static/media/book3.c4e8218c689b3039d80c.jpg",
-    "static/media/book2.jpg": "/static/media/book2.b62b71bb2543f0fd27f1.jpg",
+    "main.css": "/static/css/main.ff3d3a35.css",
+    "main.js": "/static/js/main.99455aa8.js",
+    "static/js/787.527bc3b3.chunk.js": "/static/js/787.527bc3b3.chunk.js",
+    "static/media/ysy_1.mp4": "/static/media/ysy_1.c38f3af82136b33d6eb8.mp4",
+    "static/media/ysy.mp4": "/static/media/ysy.a1b4c505cf7ae92e847a.mp4",
+    "static/media/building.jpg": "/static/media/building.d57151a2f7eae816d9d7.jpg",
+    "static/media/mask.jpg": "/static/media/mask.eeb37261e71640086d8b.jpg",
+    "static/media/jobs.jpg": "/static/media/jobs.c244cf54aeb4bff87354.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.e90f4cd9.css.map": "/static/css/main.e90f4cd9.css.map",
-    "main.7974221d.js.map": "/static/js/main.7974221d.js.map",
-    "787.31dd6250.chunk.js.map": "/static/js/787.31dd6250.chunk.js.map"
+    "main.ff3d3a35.css.map": "/static/css/main.ff3d3a35.css.map",
+    "main.99455aa8.js.map": "/static/js/main.99455aa8.js.map",
+    "787.527bc3b3.chunk.js.map": "/static/js/787.527bc3b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e90f4cd9.css",
-    "static/js/main.7974221d.js"
+    "static/css/main.ff3d3a35.css",
+    "static/js/main.99455aa8.js"
   ]
 }
